@@ -13,13 +13,15 @@ html(lang="es")
             header.pure-u-1
                 .pure-u-1-3
                     h1.logo Finder challenge!
-                .pure-u-1-3
+                .pure-u-7-24
                     include blocks/search-form
                 .pure-u-1-3
+                    a(href="javascript:;") Guardar búsqueda
             aside.filters.pure-u-1-4
+                include blocks/search-saved
             content.pure-u-3-4
             footer.pure-u-1
-
+            include blocks/card-movie-template
         //- third party libraries
         script(src="/vendor/jquery/dist/jquery.min.js")
         script(src="/vendor/underscore/underscore-min.js")
